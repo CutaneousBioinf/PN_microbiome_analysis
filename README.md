@@ -10,6 +10,6 @@ This Github page deposits quality trimming, MOTHUR preprocessing, and downstream
 6. bray-curtis.R: calculate bray-curtis distance between samples using rarefication, conduct dimension reduction using NMDS, and test for significance between different skin types and batches
 7. DE_{taxon}_{method}.R: conduct differential abundance/expression analysis \
     taxon: taxonomy-level of phylotype unit, genus-/phylum-level are used in this study \
-    method: method used for differential analysis, ANCOMBC, DESeq2, and limma-voom are used \
+    method: method used for differential analysis, ANCOMBC, DESeq2, and limma-voom are used 
 8. plot_DE_{genus, phylum}.R: scripts to plot ANCOMBC results and generate Figure 4
 9. mlr_{baseline, nrsw4}.R: machine learning scripts to classify baseline lesional/non-lesion skin types and predict nemolizumab response status using microbiome and demographic data.
