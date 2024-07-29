@@ -1,6 +1,6 @@
 # PN microbiome analysis scripts
 
-This Github page deposit quality trimming, MOTHUR preprocessing, and downstream analysis scripts for manuscript "Nemolizumab treatment normalizes dysregulated microbiome in lesional prurigo nodularis"
+This Github page deposits quality trimming, MOTHUR preprocessing, and downstream analysis scripts for manuscript "Nemolizumab treatment normalizes dysregulated microbiome in lesional prurigo nodularis"
 
 1. quality_trimming.sh: conduct quality trimming on the raw fastq sequences using fastqc to trim bases with quality scores less than 25
 2. mothur.sh: mothur pipeline to process paired trimmed fastq.gz data files, output otu table as well as taxonomy assignments
